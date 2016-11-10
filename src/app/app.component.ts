@@ -4,7 +4,8 @@ import { Account, Stormpath } from 'angular-stormpath';
 
 @Component({
   selector: 'app-root',
-  template: `<div *ngIf="(user$ | async)" class="row text-center">
+  template: `<h1>{{title}}</h1>
+    <div *ngIf="(user$ | async)" class="row text-center">
        <h2 class="">
          Welcome, ({{ ( user$ | async ).fullName }}).
        </h2>
@@ -20,6 +21,7 @@ import { Account, Stormpath } from 'angular-stormpath';
   providers: [Stormpath]
 })
 export class AppComponent {
+  title = 'app works!';
   private user$: Observable<Account | boolean>;
   private loggedIn$: Observable<boolean>;
   private login: boolean;
