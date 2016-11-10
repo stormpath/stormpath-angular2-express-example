@@ -6,7 +6,7 @@
   </a>
   <a href="http://expressjs.com/">
       <img src="https://github.com/stormpath/angular2-express-stormpath-example/raw/master/static/express.png">
-    </a>
+  </a>
   <a href="https://www.stormpath.com/">
     <img src="https://github.com/stormpath/angular2-express-stormpath-example/raw/master/static/stormpath.png">
   </a>
