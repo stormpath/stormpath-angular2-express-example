@@ -1,7 +1,7 @@
 {
-  "name": "angular2-express-example",
+  "name": "angular2-express-stormpath-example",
   "version": "0.0.0",
-  "license": "MIT",
+  "license": "Apache-2.0",
   "angular-cli": {},
   "scripts": {
     "start": "concurrently --raw \"ng serve --proxy-config proxy.conf.json\" \"node server/server.js stormpath-api\"",

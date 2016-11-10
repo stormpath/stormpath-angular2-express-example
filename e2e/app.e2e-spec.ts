@@ -1,6 +1,6 @@
 import { Angular2ExpressExamplePage } from './app.po';
 
-describe('angular2-express-example App', function() {
+describe('angular2-express-stormpath-example App', function() {
   let page: Angular2ExpressExamplePage;
 
   beforeEach(() => {
