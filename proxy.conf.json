@@ -1,0 +1,22 @@
+{
+  "/forgot": {
+    "target": "http://localhost:3000",
+    "secure": false
+  },
+  "/login": {
+    "target": "http://localhost:3000",
+    "secure": false
+  },
+  "/logout": {
+    "target": "http://localhost:3000",
+    "secure": false
+  },
+  "/me": {
+    "target": "http://localhost:3000",
+    "secure": false
+  },
+  "/register": {
+    "target": "http://localhost:3000",
+    "secure": false
+  }
+}

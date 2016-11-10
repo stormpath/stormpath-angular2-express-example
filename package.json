@@ -4,7 +4,7 @@
   "license": "MIT",
   "angular-cli": {},
   "scripts": {
-    "start": "ng serve",
+    "start": "concurrently --raw \"ng serve --proxy-config proxy.conf.json\" \"node server/server.js stormpath-api\"",
     "lint": "tslint \"src/**/*.ts\"",
     "test": "ng test",
     "pree2e": "webdriver-manager update",
@@ -30,6 +30,8 @@
     "@types/node": "^6.0.42",
     "angular-cli": "1.0.0-beta.19-3",
     "codelyzer": "1.0.0-beta.1",
+    "concurrently": "^3.1.0",
+    "express-stormpath": "^3.1.6",
     "jasmine-core": "2.4.1",
     "jasmine-spec-reporter": "2.5.0",
     "karma": "1.2.0",
