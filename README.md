@@ -13,9 +13,9 @@
 </div>
 
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.19-3. It's an example application that shows
-a typical [Angular 2](http://angular.io/) webapp with an [Express](http://expressjs.com/) backend.
+a typical [Angular 2](http://angular.io/) webapp that authenticates with [Stormpath](https://stormpath.com) using an [Express](http://expressjs.com/) backend.
 
-You can read about how this application was created on [the Stormpath blog](https://stormpath.com/blog/angular2-sdk-released). Feel free to copy any code 
+You can read about how this application was created on [the Stormpath blog](https://stormpath.com/blog/angular-2-user-authentication). Feel free to copy any code 
 in this project for your own use in accordance with the [Apache 2.0 license](LICENSE).
 
 **Prerequisites**: Node.js, a [Stormpath Account](https://api.stormpath.com/register), and an `apiKey.properties` file in `~/stormpath/`.
