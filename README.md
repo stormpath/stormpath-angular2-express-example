@@ -20,6 +20,6 @@ in this project for your own use in accordance with the [Apache 2.0 license](LIC
 
 **Prerequisites**: Node.js, a [Stormpath Account](https://api.stormpath.com/register), and an `apiKey.properties` file in `~/stormpath/`.
 
-To run the app, execute `npm install && npm start`. 
+To run the app, execute `npm install && npm start`. Then load the application your browser at http://localhost:4200/
 
 To learn more, see Stormpath's [Angular 2 SDK](https://github.com/stormpath/stormpath-sdk-angular) and [Express Stormpath](https://github.com/stormpath/express-stormpath).
