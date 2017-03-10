@@ -42,8 +42,14 @@ app.use(function (req, res, next) {
 console.log('Initializing Stormpath');
 
 app.use(stormpath.init(app, {
+  okta: {
+    org: 'https://dev-613050.oktapreview.com/',
+    appId: '68GpITTmEbgpfxnLQ5JH',
+    authorizationServerClientId: '68GpITTmEbgpfxnLQ5JH',
+    authorizationServerId: 'aus9o8wviqVtrcq7D0h7',
+    apiToken: '00KMO4szcBo8MEeEq--9wCuO-Lr9z5kkSJ9sH6bLGo'
+  },
   web: {
-    // produces: ['text/html'],
     spa: {
       enabled: true,
       view: path.join(__dirname, '..', 'index.html')
